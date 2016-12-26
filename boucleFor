@@ -1,0 +1,14 @@
+ 
+var chiffreUser=null;
+const MULTIPLICATEUR = 5 ; 
+
+//AFFICHER "Donnez un chiffre"
+// LIRE et STOCKER dans chiffreUser
+
+chiffreUser = prompt("Donnez un chiffre");
+
+
+for(i = 0 ; i < MULTIPLICATEUR ; i++){
+  alert(i * chiffreUser);
+}
+
